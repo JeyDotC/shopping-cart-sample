@@ -5,6 +5,7 @@ using System;
 
 namespace ShoppingCart.Application
 {
+    // https://fullstackmark.com/post/11/better-software-design-with-clean-architecture
     public class AddProductToCart : IRequestHandler<AddProductToCartRequest, AddProductToCartResult>
     {
         private ICartsRepository _carts;
